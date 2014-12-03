@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Applications/MAMP/htdocs/Personal-Site",
+			"folder_exclude_patterns": ["_add-ons", "_app", "_cache", "_logs", "admin"]
+		}
+	]
+}

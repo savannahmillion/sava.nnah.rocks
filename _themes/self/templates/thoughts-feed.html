@@ -1,0 +1,13 @@
+<div class="page-info">
+	<h1>{{ title }}</h1>
+	<img id="{{ emoji-animation }}" src="{{ emoji }}"><br>
+</div>
+<p>
+	{{ content }}
+</p>
+
+{{ entries:listing folder="thoughts" }}
+	<div class="blog-feed-divider"></div>
+	<h2><a href="{{ url }}">{{ title }}</a></h2>
+	<p class="blog-data">{{ date }}</p>
+{{ /entries:listing }}

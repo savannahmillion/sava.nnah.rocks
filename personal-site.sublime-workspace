@@ -1,0 +1,235 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sh",
+				"shocking"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"list-",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/self/sample.gitignore",
+		"/Users/savannahm/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/savannahm/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/savannahm/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Applications/MAMP/htdocs/Twelve-Games/patience.php",
+		"/Applications/MAMP/htdocs/Twelve-Games/one.php",
+		"/Applications/MAMP/htdocs/Twelve-Games/includes/footer.html",
+		"/Applications/MAMP/htdocs/Twelve-Games/includes/navigation.html",
+		"/Applications/MAMP/htdocs/Twelve-Games/includes/header.html",
+		"/Applications/MAMP/htdocs/Twelve-Games/includes/head.html",
+		"/Applications/MAMP/htdocs/Twelve-Games/includes/header.php",
+		"/Applications/MAMP/htdocs/Twelve-Games/games/01_peartree/index.html",
+		"/Applications/MAMP/htdocs/twelve-games-2/a-partridge.html",
+		"/Applications/MAMP/htdocs/twelve-games-2/includes/header.html",
+		"/Applications/MAMP/htdocs/self/_themes/self/css/self.scss",
+		"/Applications/MAMP/htdocs/Twelve-Games/sass/normalize.scss",
+		"/Applications/MAMP/htdocs/Kenshoo/stylesheets/kenshoo-test.scss",
+		"/Applications/MAMP/htdocs/Kenshoo/css/kenshoo-test.css",
+		"/Applications/MAMP/htdocs/self/_config/users/savannah.yaml",
+		"/Applications/MAMP/htdocs/self/_themes/self/templates/default.html",
+		"/Applications/MAMP/htdocs/self/_themes/self/templates/about.html",
+		"/Applications/MAMP/htdocs/self/_content/about/page.md",
+		"/Applications/MAMP/htdocs/self/_themes/self/templates/thoughts-feed.html",
+		"/Applications/MAMP/htdocs/self/_themes/self/templates/resume.html",
+		"/Applications/MAMP/htdocs/self/_themes/self/templates/thoughts-lp.html",
+		"/Applications/MAMP/htdocs/self/_content/thoughts/2014-10-31-this-post-is-also-a-test-post.md",
+		"/Applications/MAMP/htdocs/self/_content/thoughts/page.md",
+		"/Applications/MAMP/htdocs/self/_content/projects.md",
+		"/Applications/MAMP/htdocs/self/_themes/self/partials/footer.html",
+		"/Applications/MAMP/htdocs/self/_themes/self/templates/home.html",
+		"/Applications/MAMP/htdocs/self/_content/page.md",
+		"/Applications/MAMP/htdocs/self/_themes/self/partials/head.html",
+		"/Applications/MAMP/htdocs/self/_themes/self/layouts/default.html",
+		"/Applications/MAMP/htdocs/self/_themes/acadia/layouts/default.html",
+		"/Applications/MAMP/htdocs/self/_config/settings.yaml",
+		"/Applications/MAMP/htdocs/self/_config/fieldsets/page.yaml",
+		"/Applications/MAMP/htdocs/self/_content/about.md",
+		"/Applications/MAMP/htdocs/self/_content/thoughts/2014-10-01-this-post-is-also-a-test-post.md",
+		"/Applications/MAMP/htdocs/self/_themes/self/css/animation.scss",
+		"/Applications/MAMP/htdocs/self/_content/thoughts/2014-10-30-test-post.md",
+		"/Applications/MAMP/htdocs/self/_content/thoughts/2014-11-01-test-post.md",
+		"/Applications/MAMP/htdocs/self/_content/thoughts/2914-10-30-test-post.md",
+		"/Applications/MAMP/htdocs/self/_content/thoughts.md",
+		"/Applications/MAMP/htdocs/self/_themes/self/layouts/about.html",
+		"/Applications/MAMP/htdocs/self/_themes/denali/layouts/default.html",
+		"/Applications/MAMP/htdocs/self/_themes/denali/partials/nav.html",
+		"/Applications/MAMP/htdocs/self/_themes/index.html",
+		"/Applications/MAMP/htdocs/self/_themes/denali/templates/default.html",
+		"/Applications/MAMP/htdocs/self/_themes/denali/theme.yaml",
+		"/Applications/MAMP/htdocs/self/_themes/denali/index.html",
+		"/Users/savannahm/Desktop/statamic-1.9.1 2/_themes/index.html",
+		"/Applications/MAMP/htdocs/self/stylesheets/self.scss",
+		"/Applications/MAMP/htdocs/self/about.html",
+		"/Applications/MAMP/htdocs/self/index.html",
+		"/Applications/MAMP/htdocs/self/stylesheets/cssreset.scss",
+		"/Applications/MAMP/htdocs/self/self.scss",
+		"/Applications/MAMP/htdocs/Kenshoo-Header-Mock/stylesheets/normalize.css",
+		"/Users/savannahm/Desktop/unsemantic-master/assets/sass/ie.scss",
+		"/Users/savannahm/Desktop/unsemantic-master/assets/sass/unsemantic-grid-base.scss",
+		"/Users/savannahm/Desktop/infinity.html",
+		"/Users/savannahm/Desktop/test.html",
+		"/Applications/MAMP/htdocs/Kenshoo/stylesheets/_normalize.scss.css",
+		"/Applications/MAMP/htdocs/Kenshoo/stylesheets/normalize.scss.css",
+		"/Users/savannahm/Desktop/search-pro-certificate.html",
+		"/Users/savannahm/Desktop/search-pro.html",
+		"/Users/savannahm/Desktop/email.html",
+		"/Users/savannahm/Google Drive/Inside Marketing/Creative/Internal Branding/KenshooU/homepage.html",
+		"/Users/savannahm/Desktop/index.html",
+		"/Users/savannahm/Desktop/backup.html",
+		"/Users/savannahm/Desktop/register.html",
+		"/Users/savannahm/Desktop/reorgchart/Sub-chart 1.html",
+		"/Users/savannahm/Desktop/homepage.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			"atlanta",
+			"malaysia",
+			"dallas",
+			"<h3 style=\"color: #30AF7A; font-size: 16px; text-transform: uppercase;\">",
+			"<h3>",
+			"2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

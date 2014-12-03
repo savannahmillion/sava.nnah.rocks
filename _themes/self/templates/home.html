@@ -1,0 +1,19 @@
+<div class="page-info">
+	<h1>{{ title }}</h1>
+	<div class="purple-circle">
+		<img id="{{ emoji-animation }}" src="{{ emoji }}">
+	</div>
+</div>
+<div class="center">
+	<p>
+		{{ content }}
+	</p>
+</div>
+
+<div class="project center">
+	{{ entries:listing folder="projects" }}
+		<a href="{{ url }}"><img class="project-feed-thumb" src="{{ feed-thumbnail }}"></a>
+		<h2><a href="{{ url }}">{{ title }}</a></h2>
+		<p>{{ project-description }}</p>
+	{{ /entries:listing }}
+</div>

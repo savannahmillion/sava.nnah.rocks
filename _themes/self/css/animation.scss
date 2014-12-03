@@ -1,0 +1,80 @@
+@-webkit-keyframes spin {
+  0%, 100% {
+  	transform: rotate(20deg);
+  }
+  50% {
+  	transform: rotate(-20deg);
+  }
+}
+@-moz-keyframes spin {
+  0%, 100% {
+  	transform: rotate(20deg);
+  }
+  50% {
+  	transform: rotate(-20deg);
+  }
+}
+@-o-keyframes spin {
+  0%, 100% {
+  	transform: rotate(20deg);
+  }
+  50% {
+  	transform: rotate(-20deg);
+  }
+}
+@keyframes spin {
+  0%, 100% {
+  	transform: rotate(20deg);
+  }
+  50% {
+  	transform: rotate(-20deg);
+  }
+}
+
+@-webkit-keyframes swell {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+@-moz-keyframes swell {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+@-o-keyframes swell {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+@keyframes swell {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+
+#wave {
+	-webkit-animation: spin 3s infinite ease-in-out;
+	-moz-animation:    spin 3s infinite ease-in-out;
+	-o-animation:      spin 3s infinite ease-in-out;
+	animation:         spin 3s infinite ease-in-out;
+}
+
+#flex {
+  -webkit-animation: swell 2s infinite linear;
+  -moz-animation:    swell 2s infinite linear;
+  -o-animation:      swell 2s infinite linear;
+  animation:         swell 2s infinite linear;
+}

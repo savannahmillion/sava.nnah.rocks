@@ -1,0 +1,382 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "cssreset";
+@import "animation";
+
+
+// FONTS
+
+$mono: 'Droid Sans Mono', "Courier New", Courier, monospace; //'Source Code Pro', "Courier New", Courier, monospace;
+$sans-serif: "Varela Round", Helvetica, sans-serif;
+
+
+// COLORS
+
+$waikawaGray: #646E8C;
+$portage: #9195DC;
+$cadetBlue: #B0B6C5;
+$poloBlue: #81A5D4;
+
+
+// FONT STYLES
+
+body {
+	font-family: $mono;
+	color: $waikawaGray;
+	//@include outer-container;
+	font-size: 14px;
+	background-color: lighten($waikawaGray, 60%);
+}
+
+a {
+	color: $poloBlue;
+	@include transition (all .2s ease-in-out);
+	&:hover {
+		color: darken($poloBlue, 40%);
+	}
+}
+
+ul {
+	list-style-type: circle;
+	line-height: 1.75em;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: $sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: $portage;
+}
+
+h2,input,textarea,button {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-family: $sans-serif;
+	margin-bottom: 16px;
+	color: $poloBlue;
+	a {
+		color: $poloBlue;
+	}
+}
+
+h3 {
+	line-height: 1.5em;
+	font-size: 2.25em;
+	color: darken($poloBlue, 20%);
+}
+
+p {
+	line-height: 1.75em;
+	margin-bottom: 24px;
+}
+
+.small { font-size: .6875em; }
+
+em { font-style: italic; }
+
+.purple { color: $portage; }
+
+blockquote {
+	background-color: lighten($cadetBlue, 25%);
+	font-size: .8em;
+	line-height: .8em;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 1px;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.blog-data {
+	font-size: .875em;
+	line-height: 40px;
+}
+
+// LAYOUTS
+
+// GLOBAL
+
+$mobile: new-breakpoint(max-width 890px 12);
+
+.all-content {
+	@include outer-container;
+	@include media($mobile) {
+		@include outer-container;
+	}
+}
+
+article.default-page-width {
+	@include span-columns(8);
+	@include shift(2);
+	@include media($mobile) {
+		@include span-columns(10);
+		@include shift(1);
+	}
+}
+
+article.project-page-width {
+	@include span-columns(10);
+	@include shift(1);
+	@include media($mobile) {
+		@include span-columns(10);
+		@include shift(1);
+	}
+}
+
+// HEADER, NAV & FOOTER
+
+header {
+	height: 70px;
+	nav {
+		background-color: rgba(255, 255, 255, 0.8);
+		font-family: $sans-serif;
+  		text-align: center;
+	  	width: 100%;
+	  	ul {
+		  	@include span-columns(4);
+		  	@include shift(4);
+		  	@include media($mobile) {
+				@include span-columns(10);
+				@include shift(1);
+			}
+		  	margin-top: 10px;
+		  	margin-bottom: 10px;
+		    list-style-type: none;
+	    	li {
+				float: left;
+			    display: block;
+			    width: 14.2857%;
+		    	a {
+					text-decoration: none;
+		      		border-bottom: 1px solid $poloBlue;
+	      		}
+	    	}
+	  	}
+	}
+}
+
+.sticky {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+}
+
+.site-title {
+	font-family: $mono;
+	width: 100%;
+	height: 30px;
+	padding-top: 3px;
+	background-color: $portage;
+	color: white;
+	text-align: center;
+	a {
+		color: white;
+		text-decoration: none;
+		&:hover {
+			color: lighten($waikawaGray, 40%);
+		}
+	}
+}
+
+footer {
+	@include span-columns(8);
+	@include shift(2);
+	border-top: 1px solid lighten($cadetBlue, 10%);
+	margin-top: 60px;
+	margin-bottom: 100px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+footer img {
+	@include transition (opacity .2s ease-in-out);
+	width: 40px;
+	height: 40px;
+	margin-bottom: 10px;
+	&:hover {
+		opacity: .7;
+	}
+}
+
+// RESUME - SPECIFIC
+
+.resume-job-data {
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 20px;
+}
+
+.resume-job-description {
+	font-size: 12px;
+	line-height: 22px;
+	ul {
+		list-style-type: circle;
+		padding-left: 25px;
+	}
+}
+
+table {
+	width: 50%;
+}
+
+// PROJECT PAGE - SPECIFIC
+
+div.project {
+	@include span-columns(6 of 8);
+	@include shift(1);
+	border-top: 1px solid lighten($cadetBlue, 10%);
+	padding-top: 40px;
+}
+
+.project-feed-thumb {
+	width: auto;
+	height: auto;
+	margin-bottom: 16px;
+	margin-top: 30px;
+}
+
+.projects-content {
+	img {
+		margin: 40px 0 10px 0;
+		width: 100%;
+		height: auto;
+	}
+}
+
+//UNORGANIZED
+
+.page-info {
+	text-align: center;
+	margin-top: 30px;
+	img {
+		width: 75px;
+		height: 75px;
+		margin-top: 15px;
+		}
+}
+
+.purple-circle {
+	width: 150px;
+	height: 150px;
+	margin: 20px auto 20px auto;
+	border-radius: 50%;
+	@include linear-gradient($poloBlue, $portage);
+}
+
+#about-face {
+	width: 120px;
+	height: auto;
+}
+
+.blog-feed-divider {
+	width: 60px;
+	height: 50px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid darken($poloBlue, 20%);
+}
+
+.avatar {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom: 80px;
+	li {
+		@include transition (opacity .2s ease-in-out);
+		float: left;
+		display: block;
+		width: 16.66667%;
+		&:hover {
+			opacity: .7;
+		}
+		img {
+			border: 1px solid lighten($cadetBlue, 10%);
+			height: 55px;
+			width: 55px;
+			border-radius: 50%;
+		}
+	}
+}
+
+// CONTACT FORM SPECIFIC
+
+div.contact-form {
+	border-top: 1px solid lighten($cadetBlue, 10%);
+	padding: 30px 0px 30px 0px;
+	text-align: center;
+	input {
+		width: 100%;
+		height: 65px;
+		padding: 35px 10px 10px 8px;
+		border: 1px solid lighten($cadetBlue, 10%);
+		border-radius: 5px;
+		&:focus {
+			border: 2px solid $portage;
+			outline: none;
+		}
+	}
+	label {
+		float: left;
+		position: relative;
+		top: 25px;
+		left: 10px;
+	}
+	textarea {
+		width: 100%;
+		padding: 35px 10px 10px 8px;
+		border: 1px solid lighten($cadetBlue, 10%);
+		border-radius: 5px;
+		resize: vertical;
+		&:focus {
+			border: 2px solid $portage;
+			outline: none;
+		}
+	}
+	button {
+		width: 150px;
+		height: 60px;
+		margin: 0 auto;
+		background-color: $portage;
+		border: none;
+		color: white;
+		border-radius: 5px;
+		&:hover {
+			cursor: pointer;
+			background-color: lighten($portage, 5%);
+		}
+	}
+}
+
+
+// MEDIA QUERIES 
+
+/*	header nav {
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		ul li {
+			float: none;
+			width: 100%;
+			padding-bottom: 20px;
+		}
+	}
+	.social li {
+		width: 33.333%;
+		padding-bottom: 15px;
+	}
+}*/

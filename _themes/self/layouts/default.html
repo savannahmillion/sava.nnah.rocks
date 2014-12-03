@@ -1,0 +1,36 @@
+<html lang="en">
+	<head>
+		{{ theme:partial src="head" }}
+	</head>
+
+	<body>
+		<header>
+			<nav class="nav">
+				<div class="site-title">
+					<p><a href="{{ homepage }}">sava.nnah.rocks</a></p>
+				</div>
+			  <ul>
+			  	<li><a href="{{ homepage }}">home</a></li>
+			    <li>&#9828;</li>
+			    <li><a href="{{ homepage }}about">about</a></li>
+			    <li>&#9828;</li>
+			    <li><a href="{{ homepage }}contact">contact</a></li>
+			    <li>&#9828;</li>
+			    <li><a href="{{ homepage }}thoughts">thoughts</a></li>
+			  </ul>
+			</nav>
+		</header>
+
+		<div class="all-content">
+
+			<article class="default-page-width">
+				{{ layout_content }}
+			</article>
+
+			{{ theme:partial src="footer" }}
+		
+		</div>
+
+	</body>
+
+</html>
