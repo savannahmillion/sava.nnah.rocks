@@ -1,5 +1,5 @@
 ---
-title: A love letter to web design
+title: A Love Letter to Web Design
 _template: thoughts-lp
 blog-img: {{ homepage}}assets/img/thoughts/code-heart.png
 ---

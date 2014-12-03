@@ -2,7 +2,7 @@
 title: contact
 _template: default
 div-class: center
-emoji: {{ homepage}}assets/img/404.png
+emoji: {{ homepage}}assets/img/pye-contact.png
 emoji-animation: none
 ---
 
