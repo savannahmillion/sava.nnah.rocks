@@ -1,6 +1,7 @@
 ---
 title: contact
 _template: default
+_template: contact
 div-class: center
 emoji: {{ homepage}}assets/img/pye-contact.png
 emoji-animation: none

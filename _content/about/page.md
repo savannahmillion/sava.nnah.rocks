@@ -1,8 +1,9 @@
 ---
 title: about
 _template: default
-emoji: {{ homepage}}assets/img/avatar-illo-transparent.png
-emoji-animation: about-face
+emoji: {{ homepage}}assets/img/about.png
+emoji-animation: flex
+circle-style: purple-circle-outline
 ---
 
 I'm Savannah Million and this is my website!<br />

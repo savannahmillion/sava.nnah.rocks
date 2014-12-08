@@ -86,7 +86,16 @@ blockquote {
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 1px;
+	padding-bottom: 10px;
+	p {
+		margin-bottom: 0px !important ;
+	}
+}
+
+.body-content {
+	ul {
+		margin-left: 20px;
+	}
 }
 
 .center {
@@ -150,9 +159,10 @@ header {
 		  	margin-bottom: 10px;
 		    list-style-type: none;
 	    	li {
-				float: left;
-			    display: block;
-			    width: 14.2857%;
+			float: left;
+			display: block;
+			width: 20%; // 3 nav items
+			//width: 14.2857%; // 4 nav items
 		    	a {
 					text-decoration: none;
 		      		border-bottom: 1px solid $poloBlue;
@@ -273,6 +283,15 @@ div.project {
 	@include linear-gradient($poloBlue, $portage);
 }
 
+.purple-circle-outline {
+	width: 150px;
+	height: 150px;
+	margin: 20px auto 20px auto;
+	border-radius: 50%;
+	//border: 2px solid $portage;
+	background-color: lighten($portage, 20%);
+}
+
 #about-face {
 	width: 120px;
 	height: auto;
@@ -298,6 +317,7 @@ div.project {
 	height: auto;
 	padding-top: 30px;
 	padding-bottom: 80px;
+	margin-left: 0px !important;
 	li {
 		@include transition (opacity .2s ease-in-out);
 		float: left;
@@ -366,22 +386,3 @@ div.contact-form {
 		}
 	}
 }
-
-
-// MEDIA QUERIES 
-
-/*	header nav {
-		height: auto;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		ul li {
-			float: none;
-			width: 100%;
-			padding-bottom: 20px;
-		}
-	}
-	.social li {
-		width: 33.333%;
-		padding-bottom: 15px;
-	}
-}*/

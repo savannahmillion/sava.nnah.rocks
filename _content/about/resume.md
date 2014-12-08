@@ -27,7 +27,6 @@ tagline: Click here for a print-friendly PDF version
 - Student designer role included sitting side-by-side with Columbia students in 1-hour design sessions, creating career development materials such as business cards, resum&eacute; layouts, press kits, logos, and personal site CSS edits (using Virb)
 - Promoted to lead November 2013
 >Biggest Takeaway: Trying to brand a complete stranger in a one-hour session while they watch over your shoulder is a very rewarding, albeit slightly insane, design exercise. If you want to force yourself to nimbly swim through hotkeys and render your ideas quickly, try doing a project with your client staring you down the entire time.
-<br />
 
 <br />
 ##Non-Design Work
