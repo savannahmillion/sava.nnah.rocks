@@ -54,9 +54,11 @@ h2,input,textarea,button {
 	line-height: 1.5em;
 	font-family: $sans-serif;
 	margin-bottom: 16px;
-	color: $poloBlue;
+	color: $portage;
 	a {
-		color: $poloBlue;
+		color: $portage;
+		text-decoration: none;
+		border-bottom: 1px solid $portage;
 	}
 }
 

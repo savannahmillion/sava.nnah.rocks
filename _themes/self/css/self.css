@@ -132,9 +132,11 @@ h2, input, textarea, button {
   line-height: 1.5em;
   font-family: "Varela Round", Helvetica, sans-serif;
   margin-bottom: 16px;
-  color: #81A5D4; }
+  color: #9195DC; }
   h2 a, input a, textarea a, button a {
-    color: #81A5D4; }
+    color: #9195DC;
+    text-decoration: none;
+    border-bottom: 1px solid #9195DC; }
 
 h3 {
   font-family: "Varela Round", Helvetica, sans-serif;
