@@ -16,5 +16,5 @@ Hello, my name is Savannah Million and I'm an interaction designer living and wo
 		<p>{{ project-description }}</p>
 	{{ /entries:listing }}
 
-	<br/>I will be posting more projects soon. &hearts;
+	<br/><p>I will be posting more projects soon. &hearts;</p>
 </div>
