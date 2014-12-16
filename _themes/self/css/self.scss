@@ -115,6 +115,7 @@ blockquote {
 // GLOBAL
 
 $mobile: new-breakpoint(max-width 890px 12);
+$mobile-2: new-breakpoint(max-width 600px 12);
 
 .all-content {
 	@include outer-container;
@@ -239,6 +240,13 @@ footer img {
 
 table {
 	width: 50%;
+	td {
+		height: 20px;
+	}
+	@include media($mobile-2) {
+		@include span-columns(12);
+		margin-bottom: 40px;
+	}
 }
 
 // PROJECT PAGE - SPECIFIC

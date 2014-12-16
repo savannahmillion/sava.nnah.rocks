@@ -1,7 +1,7 @@
 ---
 title: savannah million, the resum&eacute;
 _template: resume
-tagline: Click here for a print-friendly PDF version
+tagline: Print-friendly PDF version coming soon
 ---
 
 ##Design Work
@@ -34,7 +34,7 @@ tagline: Click here for a print-friendly PDF version
 <p class="resume-job-data">
 	<span class="purple">Brand Ambassador Manager</span><br />
 	<a href="http://www.periscope.com/">Periscope</a> (remote from Minneapolis, MN)<br />
-	May 2012 &mdash; Semptember 2012<br />
+	May 2012 &mdash; September 2012<br />
 </p>
 - Hired and managed team of 60+ college students to run an after-hours shopping event for college freshman at a local Target
 - Oversaw 1,500 college student attendants
@@ -55,14 +55,15 @@ tagline: Click here for a print-friendly PDF version
 
 <br />
 ##Skills
-{{ theme:partial src="skills" }}
-- Adobe Illustrator &#9733; &#9733; &#9733; &#9733; &#9733; 
-- Adobe InDesign &#9733; &#9733; &#9733; &#9733; &#9734;
-- Adobe Photoshop &#9733; &#9733; &#9733; &#9733; &#9734;
-- SketchApp &#9733; &#9733; &#9733; &#9733; &#9734;
-- HTML &#9733; &#9733; &#9733; &#9733; &#9734;
-- CSS &#9733; &#9733; &#9733; &#9733; &#9734;
-- Sass &#9733; &#9733; &#9734; &#9734; &#9734;
+|				|	|	|   |     |    |
+|-----------------|---|---|---|---|---|
+| Adobe Illustrator	| &#9733; | &#9733; | &#9733; | &#9733; | &#9733; |
+| Adobe InDesign		| &#9733; | &#9733; | &#9733; | &#9733; | &#9734; |
+| Adobe Photoshop		| &#9733; | &#9733; | &#9733; | &#9733; | &#9734; |
+| SketchApp			| &#9733; | &#9733; | &#9733; | &#9733; | &#9734; |
+| HTML			| &#9733; | &#9733; | &#9733; | &#9733; | &#9733; |
+| CSS 			| &#9733; | &#9733; | &#9733; | &#9733; | &#9734; |
+| Sass			| &#9733; | &#9733; | &#9733; | &#9734; | &#9734; |
 
 <br />
 ##Community Involvement &amp; Volunteering

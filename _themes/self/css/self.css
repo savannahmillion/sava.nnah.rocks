@@ -329,6 +329,17 @@ footer img {
 
 table {
   width: 50%; }
+  table td {
+    height: 20px; }
+  @media screen and (max-width: 600px) {
+    table {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-bottom: 40px; }
+      table:last-child {
+        margin-right: 0; } }
 
 div.project {
   float: left;
