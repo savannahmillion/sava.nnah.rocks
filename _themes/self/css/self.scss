@@ -272,6 +272,36 @@ div.project {
 	}
 }
 
+// DRIBBBLE EMBED
+
+ul#work {margin-bottom: 0px !important;}
+
+#work {
+  list-style-type: none;
+  p {
+  	margin-bottom: 0px !important;
+  	margin-top: 10px;
+  }
+  li {
+    //margin-left: 10px;
+  }
+  img {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+  }
+}
+
+.dribbble-shot-embed {
+	padding: 20px;
+ 	width: 440px;
+ 	height: auto;
+ 	margin: 20px auto 0 auto;
+ 	background-color: lighten($cadetBlue, 25%);
+ 	border: 1px solid $cadetBlue;
+ 	border-radius: 5px;
+}
+
 //UNORGANIZED
 
 .page-info {
