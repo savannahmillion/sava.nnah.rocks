@@ -281,14 +281,18 @@ ul#work {margin-bottom: 0px !important;}
   p {
   	margin-bottom: 0px !important;
   	margin-top: 10px;
-  }
-  li {
-    //margin-left: 10px;
+  	@include media($mobile-2) {
+  		margin-top: 0px;
+  	}
   }
   img {
     width: 400px;
     height: 300px;
     margin: 0 auto;
+    @include media($mobile-2) {
+		@include span-columns(12);
+		height: auto;
+	}
   }
 }
 
@@ -300,6 +304,10 @@ ul#work {margin-bottom: 0px !important;}
  	background-color: lighten($cadetBlue, 25%);
  	border: 1px solid $cadetBlue;
  	border-radius: 5px;
+ 	@include media($mobile-2) {
+		@include span-columns(12);
+		margin-bottom: 40px;
+	}
 }
 
 //UNORGANIZED
@@ -367,7 +375,6 @@ ul#work {margin-bottom: 0px !important;}
 		}
 		img {
 			background-color: $portage;
-			//border: 1px solid lighten($cadetBlue, 10%);
 			height: 45px;
 			width: 45px;
 			border-radius: 50%;

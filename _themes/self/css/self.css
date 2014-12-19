@@ -370,10 +370,22 @@ ul#work {
   #work p {
     margin-bottom: 0px !important;
     margin-top: 10px; }
+    @media screen and (max-width: 600px) {
+      #work p {
+        margin-top: 0px; } }
   #work img {
     width: 400px;
     height: 300px;
     margin: 0 auto; }
+    @media screen and (max-width: 600px) {
+      #work img {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        height: auto; }
+        #work img:last-child {
+          margin-right: 0; } }
 
 .dribbble-shot-embed {
   padding: 20px;
@@ -383,6 +395,15 @@ ul#work {
   background-color: #fafafb;
   border: 1px solid #B0B6C5;
   border-radius: 5px; }
+  @media screen and (max-width: 600px) {
+    .dribbble-shot-embed {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-bottom: 40px; }
+      .dribbble-shot-embed:last-child {
+        margin-right: 0; } }
 
 .page-info {
   text-align: center;
